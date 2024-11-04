@@ -686,6 +686,19 @@ footer .nav ul span {
     margin: 60px auto;
   }
 }
+.project-detail-resume .parag-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .project-detail-resume .parag-img-container {
+    gap: 40px;
+  }
+}
 .project-detail-resume .img-container {
   width: 100%;
   max-width: 900px;

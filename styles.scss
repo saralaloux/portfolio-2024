@@ -599,6 +599,13 @@ footer {
         margin: 60px  auto;
       }
   }
+  .parag-img-container {
+    @include flexbox(column, center, center);
+    gap: 20px;
+    @include responsive('tablet') {
+      gap: 40px;
+    }
+  }
   .img-container {
     width: 100%;
     max-width: 900px;
